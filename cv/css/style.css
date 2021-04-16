@@ -1,0 +1,112 @@
+body
+{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    padding: 40px;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    -webkit-box-shadow: 0px 0px 20px 2px #ccc; 
+    box-shadow: 0px 0px 20px 2px #ccc;
+}
+
+#left-side
+{
+    background-color: #004D80;
+    width: 360px;
+    padding: 20px;
+    color: #FFF;
+}
+
+#right-side
+{
+    background-color: #fff;
+    width: 560px;
+    padding: 20px;
+    color: #004D80;
+}
+
+#photo
+{
+    text-align: center;
+    margin: 20px 0;
+}
+.photo-cv
+{
+    width: 250px;
+    border: 5px solid #F27200;
+    border-radius: 180px;
+}
+
+.skills-title
+{
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 5px 0px;
+    border-bottom: 2px solid #F27200;
+}
+
+.left-list
+{
+    list-style: none;
+    padding: 10px;
+    line-height: 1.75;
+    margin: 0px;
+}
+
+.right-list
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills-item
+{
+    display: flex;
+}
+
+.skills-name
+{
+    width: 100px;
+    margin: 0px;
+}
+
+.icon-color
+{
+    color: #F27200;
+}
+
+.about-title
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.margin-none
+{
+    margin: 0px;
+}
+
+.descr-item
+{
+    padding: 10px;
+    text-align: justify;
+}
+
+.clause
+{
+    margin: 20px 0px 10px 0px;
+    text-align: justify;
+    font-size: 10px;
+}
