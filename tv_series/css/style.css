@@ -1,0 +1,160 @@
+body
+{
+    background-color: #303030;
+    font-family: 'Lato', sans-serif;
+    margin: 0px !important;
+    font-size: 18px;
+    color: #EEE;
+}
+
+#container
+{
+    width: 100%;
+}
+
+#logo
+{
+    padding: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo-item
+{
+    color: #128870;
+}
+
+.navigation
+{
+    background-color: #128870;
+    padding: 10px;
+}
+
+.list
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    line-height: 2;
+}
+
+.list-item
+{
+    width: 125px;
+    border-right: 1px dashed #006650;
+    text-align: center;
+}
+
+.list-item:hover
+{
+    background-color: #239981;
+}
+
+.list-item:hover > a
+{
+    color: #004430;
+}
+
+.list-first
+{
+    border-left: 1px dashed #006650;
+}
+
+#content
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: justify;
+}
+
+.list-series
+{
+    background-color: #239981;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+a
+{
+    text-decoration: none;
+    display: block;
+    color: #EEE;
+}
+
+.list-item:hover > .list-series
+{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.list-series-item
+{
+    border-top: 1px dashed #006650;
+}
+
+.list-series-item:hover
+{
+    background-color: #128870;
+}
+
+.social
+{
+    background-color: #292929;
+}
+
+.social-list
+{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.social-item
+{
+    width: 250px;
+    height: 150px;
+    line-height: 3;
+    text-align: center;
+}
+
+.fb:hover
+{
+    background-color: #4267B2;
+}
+
+.ins:hover
+{
+    background-color: #DD2A7B;
+}
+
+.tw:hover
+{
+    background-color: #3095D3;
+}
+
+.yb:hover
+{
+    background-color: #D94348;
+}
+
+.footer-text
+{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #222;
+
+}
