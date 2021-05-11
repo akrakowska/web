@@ -10,3 +10,5 @@ Folder zawiera szablon strony internetowej w formie CV. Strona składa się z dw
 Folder zawiera szablon strony internetowej poświęconej serialom. Strona składa się z logo, rozwijanego menu, treści głównej oraz stopki z linkami do social media. 
 #### table [(podgląd)](https://akrakowska.github.io/web/table/)
 Folder zawiera tabelę utworzoną przy użyciu HTML i CSS.
+#### form [(podgląd)](https://akrakowska.github.io/web/form/)
+Folder zawiera formularz utworzony w HTML.
